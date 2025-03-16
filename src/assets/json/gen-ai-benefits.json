@@ -1,0 +1,83 @@
+{
+  "intro": {
+    "tagline": "The Benefits",
+    "taglineColor": "#0EA5E9",
+    "title": "Perks of Software Product Engineering Services",
+    "description": "Product engineering services facilitate your ideas into high-quality products with the help of cutting-edge technology and design thinking."
+  },
+  "benefits": [
+    {
+      "iconPath": "assets/benefit/open-ai-gpt-3.svg",
+      "iconColor": "#e90e0e",
+      "title": "Cohesive User Experience",
+      "description": "User engagement is difficult to achieve without a proper UI in place. We prioritize usability testing to ensure a seamless experience."
+    },
+    {
+      "iconPath": "assets/benefit/open-ai-gpt-3.svg",
+      "iconColor": "#0EA5E9",
+      "title": "Increased Efficiency",
+      "description": "Our processes optimize development and ensure timely delivery without compromising on quality."
+    },
+    {
+      "iconPath": "assets/benefit/open-ai-gpt-3.svg",
+      "iconColor": "#0EA5E9",
+      "title": "High Scalability",
+      "description": "Scalable architectures ensure that your product can grow as your business expands."
+    },
+    {
+      "iconPath": "assets/benefit/deep-art-io.svg",
+      "iconColor": "#0EA5E9",
+      "title": "High Scalability",
+      "description": "Scalable architectures ensure that your product can grow as your business expands."
+    },
+    {
+      "iconPath": "assets/benefit/deepseek.svg",
+      "iconColor": "#0EA5E9",
+      "title": "High Scalability",
+      "description": "Scalable architectures ensure that your product can grow as your business expands."
+    },
+    {
+      "iconPath": "assets/benefit/google-gemini.svg",
+      "iconColor": "#0EA5E9",
+      "title": "High Scalability",
+      "description": "Scalable architectures ensure that your product can grow as your business expands."
+    },
+    {
+      "iconPath": "assets/benefit/grok.svg",
+      "iconColor": "#0EA5E9",
+      "title": "High Scalability",
+      "description": "Scalable architectures ensure that your product can grow as your business expands."
+    },
+    {
+      "iconPath": "assets/benefit/meta-llama.svg",
+      "iconColor": "#0EA5E9",
+      "title": "High Scalability",
+      "description": "Scalable architectures ensure that your product can grow as your business expands."
+    },
+    {
+      "iconPath": "assets/benefit/open-ai-gpt-3.svg",
+      "iconColor": "#0EA5E9",
+      "title": "High Scalability",
+      "description": "Scalable architectures ensure that your product can grow as your business expands."
+    },
+    {
+      "iconPath": "assets/benefit/perplexity.svg",
+      "iconColor": "#0EA5E9",
+      "title": "High Scalability",
+      "description": "Scalable architectures ensure that your product can grow as your business expands."
+    },
+    {
+      "iconPath": "assets/benefit/replika.svg",
+      "iconColor": "#0EA5E9",
+      "title": "High Scalability",
+      "description": "Scalable architectures ensure that your product can grow as your business expands."
+    },
+    {
+      "iconPath": "assets/benefit/open-ai-gpt-3.svg",
+      "iconColor": "#0EA5E9",
+      "title": "High Scalability",
+      "description": "Scalable architectures ensure that your product can grow as your business expands."
+    }
+  ]
+}
+

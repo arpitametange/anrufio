@@ -1,0 +1,70 @@
+{
+    "intro": {
+      "tagline": "Driven by Quality",
+      "taglineColor": "#D72638",
+      "title": "Our Commitment",
+      "description": "We are here first and foremost for our clients. We understand that each project we undertake is not merely a task, but a vision our clients wish to bring to life.\n\nTherefore, we commit ourselves to shaping this vision into tangible, measurable digital solutions that exceed our clients’ expectations. At Angular Minds, we don’t just develop software; we build partnerships that drive the growth of your business."
+    },
+    "benefits": [
+      {
+        "iconPath": "assets/benefit/red.svg",
+        "iconColor": "#D72638",
+        "title": "Quality Assurance",
+        "description": "We understand that the success of our projects is deeply dependent on Quality Assurance. At Angular Minds, our commitment to quality is not just about delivering a functional system, but about delivering a system that is reliable, efficient, and maintainable."
+      },
+      {
+        "iconPath": "assets/benefit/red.svg",
+        "iconColor": "#D72638",
+        "title": "Data Security",
+        "description": "We take a holistic approach to data security covering not just technical measures, but also organizational and procedural safeguards. We follow industry best practices and standards for data protection including aspects like encryption, secure coding practices, and regular security audits."
+      },
+      {
+        "iconPath": "assets/benefit/red.svg",
+        "iconColor": "#D72638",
+        "title": "Project Management",
+        "description": "We employ the Agile methodology for project management, allowing us to be flexible and responsive to changes. We work in short, iterative cycles, which allows us to incorporate feedback and make improvements on an ongoing basis. Our process includes regular status updates, risk management, and issue resolution procedures."
+      },
+      {
+        "iconPath": "assets/benefit/red.svg",
+        "iconColor": "#D72638",
+        "title": "Scalability",
+        "description": "Our approach to the scalability of software applications is proactive and strategic. We build your applications such that they are capable of expansion and future growth. Our applications are flexible, adaptable, and capable of handling increased load and complexity. We follow the best practices and design patterns that are proven for scalability."
+      },
+      {
+        "iconPath": "assets/benefit/red.svg",
+        "iconColor": "#D72638",
+        "title": "Timely Delivery",
+        "description": "Our project managers meticulously plan each phase of the project and they take all possible contingencies into account. They set realistic timelines and keep you in the know with all the progress, keeping track of the schedules and deadlines. Our timely deliveries do not mean we compromise on quality."
+      },
+      {
+        "iconPath": "assets/benefit/red.svg",
+        "iconColor": "#D72638",
+        "title": "Client-centric Approach",
+        "description": "We’re fully aware that each client is unique as they come with different requirements and project needs. Our offshore software developers provide services that are more customized than offering a one-size-fits-all solution. We work to create and maintain long-term relationships aiming to help you grow and scale your business."
+      },
+      {
+        "iconPath": "assets/benefit/red.svg",
+        "iconColor": "#D72638",
+        "title": "Continuous Communication",
+        "description": "Our full-stack programmers maintain an open line of communication with you throughout the lifecycle of the project. From initial onboarding to the final delivery and post-delivery support, we are in constant touch making sure that at all given steps, you are informed and involved."
+      },
+      {
+"iconPath": "assets/benefit/red.svg",
+        "iconColor": "#D72638",
+        "title": "Ongoing Support",
+        "description": "At Angular Minds, we make sure that our offshore full-stack developers provide ongoing support even after the final delivery of the project. Our support team is available around the clock to assist you with any issues that may arise post-deployment."
+      },
+      {
+"iconPath": "assets/benefit/red.svg",
+        "iconColor": "#D72638",
+        "title": "Agile Methodology",
+        "description": "Our strategy for building your applications is dynamic and Agile. It is centered around iterative progress where requirements are assessed and built through a collaborative workflow."
+      },
+      {
+        "iconPath": "assets/benefit/red.svg",
+                "iconColor": "#D72638",
+                "title": " Minimum Supervision",
+                "description": "Being a team of offshore full-stack developers, we commit to working efficiently, independently, and proactively. When you hire dedicated full-stack developers, you're getting a team of seasoned professionals who are self-driven and capable of making decisions that align with the requirements of your projects."
+              }
+    ]
+  }

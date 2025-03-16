@@ -1,0 +1,432 @@
+<nav [ngClass]="{
+  'bg-[#101820]': !scrolled,
+  'bg-white shadow-md': scrolled
+}" class="sticky top-0 z-50 transition-colors duration-300">
+    <div class="max-w-screen-xl mx-auto p-4 flex items-center justify-between">
+        <a href="/" class="flex items-center">
+            <img src="assets/logo.png" class="h-8 mr-3 w-auto object-contain" alt="anrufio" />
+        </a>
+        <button (click)="toggleMenu()"
+            class="lg:hidden p-2 text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+            aria-controls="navbar" [attr.aria-expanded]="isMenuOpen">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </button>
+        <div [ngClass]="{ 'hidden': !isMenuOpen }" class="w-full lg:block lg:w-auto" id="navbar">
+            <ul class="flex flex-col lg:flex-row lg:space-x-8 mt-4 lg:mt-0">
+                <!-- <li>
+                    <a href="/" class="block py-2 px-4 rounded transition-colors duration-300" [ngClass]="{
+                            'text-white hover:bg-white hover:text-black': !scrolled,
+                            'text-gray-900 hover:bg-black hover:text-white': scrolled
+                          }">
+                        Home
+                    </a>
+                </li> -->
+                <li class="relative" (mouseenter)="openExtertise()" (mouseleave)="closeDropdown()">
+                    <button class="flex items-center py-2 px-4 rounded transition-colors duration-300" [ngClass]="{
+                          'text-white hover:bg-white hover:text-black': !scrolled,
+                          'text-gray-900 hover:bg-black hover:text-white': scrolled
+                        }">
+                        Expertise
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </button>
+                    <div *ngIf="isExtertiseOpen"
+                        class="absolute top-full left-1/2 transform -translate-x-1/2 z-10 mt-3 w-screen max-w-4xl overflow-hidden rounded-3xl bg-white ring-1 shadow-lg ring-gray-900/5 flex justify-center">
+
+                        <div class="max-w-6xl mx-auto bg-white rounded-lg shadow-lg p-6">
+                            <div class="grid grid-cols-2 sm:grid-cols-3 gap-x-0 gap-y-4">
+                                <div class="md:col-span-2">
+                                    <h3 class="text-lg font-semibold text-gray-900 mb-4">Technologies</h3>
+                                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                                        <a href="/angular" class="flex items-center space-x-2 group">
+                                            <img src="assets/header-img/angular.svg" alt="Angular"
+                                                class="h-5 filter grayscale group-hover:filter-none transition">
+                                            <p class="text-gray-800 text-sm group-hover:text-yellow-500 transition">
+                                                Angular</p>
+                                        </a>
+                                        <a href="/react" class="flex items-center space-x-2 group">
+                                            <img src="assets/header-img/react.svg" alt="React"
+                                                class="h-5 filter grayscale group-hover:filter-none transition">
+                                            <p class="text-gray-800 text-sm group-hover:text-yellow-500 transition">
+                                                React</p>
+                                        </a>
+                                        <a href="/vuejs" class="flex items-center space-x-2 group">
+                                            <img src="assets/header-img/vue.svg" alt="VueJS"
+                                                class="h-5 filter grayscale group-hover:filter-none transition">
+                                            <p class="text-gray-800 text-sm group-hover:text-yellow-500 transition">
+                                                VueJS</p>
+                                        </a>
+                                        <a href="/nodejs" class="flex items-center space-x-2 group">
+                                            <img src="assets/header-img/node.svg" alt="NodeJS"
+                                                class="h-5 filter grayscale group-hover:filter-none transition">
+                                            <p class="text-gray-800 text-sm group-hover:text-yellow-500 transition">
+                                                NodeJS</p>
+                                        </a>
+                                        <a href="/pwa" class="flex items-center space-x-2 group">
+                                            <img src="assets/header-img/pwa.svg" alt="PWA"
+                                                class="h-5 filter grayscale group-hover:filter-none transition">
+                                            <p class="text-gray-800 text-sm group-hover:text-yellow-500 transition">
+                                                PWA
+                                            </p>
+                                        </a>
+                                        <a href="/flutter" class="flex items-center space-x-2 group">
+                                            <img src="assets/header-img/flutter.svg" alt="Flutter"
+                                                class="h-5 filter grayscale group-hover:filter-none transition">
+                                            <p class="text-gray-800 text-sm group-hover:text-yellow-500 transition">
+                                                Flutter</p>
+                                        </a>
+                                        <a href="/python" class="flex items-center space-x-2 group">
+                                            <img src="assets/header-img/python.svg" alt="Python"
+                                                class="h-5 filter grayscale group-hover:filter-none transition">
+                                            <p class="text-gray-800 text-sm group-hover:text-yellow-500 transition">
+                                                Python</p>
+                                        </a>
+                                        <a href="/java" class="flex items-center space-x-2 group">
+                                            <img src="assets/header-img/java.svg" alt="Java"
+                                                class="h-5 filter grayscale group-hover:filter-none transition">
+                                            <p class="text-gray-800 text-sm group-hover:text-yellow-500 transition">
+                                                Java
+                                            </p>
+                                        </a>
+                                        <a href="/firebase" class="flex items-center space-x-2 group">
+                                            <img src="assets/header-img/firebase.svg" alt="Firebase"
+                                                class="h-5 filter grayscale group-hover:filter-none transition">
+                                            <p class="text-gray-800 text-sm group-hover:text-yellow-500 transition">
+                                                Firebase</p>
+                                        </a>
+                                        <a href="/serverless" class="flex items-center space-x-2 group">
+                                            <img src="assets/header-img/serverless.svg" alt="Serverless"
+                                                class="h-5 filter grayscale group-hover:filter-none transition">
+                                            <p class="text-gray-800 text-sm group-hover:text-yellow-500 transition">
+                                                Serverless</p>
+                                        </a>
+                                        <a href="/react-native" class="flex items-center space-x-2 group">
+                                            <img src="assets/header-img/react.svg" alt="React Native"
+                                                class="h-5 filter grayscale group-hover:filter-none transition">
+                                            <p class="text-gray-800 text-sm group-hover:text-yellow-500 transition">
+                                                React Native</p>
+                                        </a>
+                                        <a href="/nextjs" class="flex items-center space-x-2 group">
+                                            <img src="assets/header-img/nextjs.svg" alt="NextJS"
+                                                class="h-5 filter grayscale group-hover:filter-none transition">
+                                            <p class="text-gray-800 text-sm group-hover:text-yellow-500 transition">
+                                                NextJS</p>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="bg-gray-100 p-6 rounded-lg w-full max-w-md mr-10">
+                                    <h3 class="text-lg font-semibold text-gray-900 mb-4">Industries</h3>
+                                    <div class="grid grid-cols-2 gap-3">
+                                        <a href="/transport" class="flex items-center space-x-2 group">
+                                            <img src="assets/header-img/transport.svg" alt="Transport"
+                                                class="h-5 filter grayscale group-hover:filter-none transition">
+                                            <p class="text-gray-800 text-sm group-hover:text-yellow-500 transition">
+                                                Transport</p>
+                                        </a>
+                                        <a href="/education" class="flex items-center space-x-2 group">
+                                            <img src="assets/header-img/education.svg" alt="Education"
+                                                class="h-5 filter grayscale group-hover:filter-none transition">
+                                            <p class="text-gray-800 text-sm group-hover:text-yellow-500 transition">
+                                                Education</p>
+                                        </a>
+                                        <a href="/insurance" class="flex items-center space-x-2 group">
+                                            <img src="assets/header-img/insurance.svg" alt="Insurance"
+                                                class="h-5 filter grayscale group-hover:filter-none transition">
+                                            <p class="text-gray-800 text-sm group-hover:text-yellow-500 transition">
+                                                Insurance</p>
+                                        </a>
+                                        <a href="/e-commerce" class="flex items-center space-x-2 group">
+                                            <img src="assets/header-img/e-commerce.svg" alt="E-commerce"
+                                                class="h-5 filter grayscale group-hover:filter-none transition">
+                                            <p class="text-gray-800 text-sm group-hover:text-yellow-500 transition">
+                                                E-commerce</p>
+                                        </a>
+                                        <a href="/real-estate" class="flex items-center space-x-2 group">
+                                            <img src="assets/header-img/real-estate.svg" alt="Real Estate"
+                                                class="h-5 filter grayscale group-hover:filter-none transition">
+                                            <p class="text-gray-800 text-sm group-hover:text-yellow-500 transition">
+                                                Real
+                                                Estate</p>
+                                        </a>
+                                        <a href="/finance" class="flex items-center space-x-2 group">
+                                            <img src="assets/header-img/finance.svg" alt="Finance"
+                                                class="h-5 filter grayscale group-hover:filter-none transition">
+                                            <p class="text-gray-800 text-sm group-hover:text-yellow-500 transition">
+                                                Finance</p>
+                                        </a>
+                                        <a href="/technology" class="flex items-center space-x-2 group">
+                                            <img src="assets/header-img/technology.svg" alt="Technology"
+                                                class="h-5 filter grayscale group-hover:filter-none transition">
+                                            <p class="text-gray-800 text-sm group-hover:text-yellow-500 transition">
+                                                Technology</p>
+                                        </a>
+                                        <a href="/manufacturing" class="flex items-center space-x-2 group">
+                                            <img src="assets/header-img/industry.svg" alt="Manufacturing"
+                                                class="h-5 filter grayscale group-hover:filter-none transition">
+                                            <p class="text-gray-800 text-sm group-hover:text-yellow-500 transition">
+                                                Manufacturing</p>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="border-t border-gray-200 my-4"></div>
+                            <div class="flex items-center justify-between">
+                                <h3 class="text-base font-semibold text-gray-900">Our Process</h3>
+                                <div class="flex space-x-3">
+                                    <a href="#" class="text-orange-500 font-semibold text-sm hover:text-yellow-500">
+                                        #agility(at)Heart
+                                    </a>
+                                    <a href="#" class="text-green-600 font-semibold text-sm hover:text-yellow-500">
+                                        #clean-code
+                                    </a>
+                                    <a href="#" class="text-purple-600 font-semibold text-sm hover:text-yellow-500">
+                                        #ux-matters
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </li>
+
+                <li class="relative" (mouseenter)="openServices()" (mouseleave)="closeDropdown()">
+                    <button class="flex items-center py-2 px-4 rounded transition-colors duration-300" [ngClass]="{
+                          'text-white hover:bg-white hover:text-black': !scrolled,
+                          'text-gray-900 hover:bg-black hover:text-white': scrolled
+                        }">
+                        Services
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </button>
+                    <div *ngIf="isServiceOpen"
+                        class="absolute top-full left-1/2 transform -translate-x-1/2 z-10 mt-3 w-screen max-w-3xl overflow-hidden rounded-3xl bg-white ring-1 shadow-lg ring-gray-900/5">
+
+                        <div class="max-w-3xl mx-auto bg-white rounded-lg shadow-lg p-4">
+                            <div class="flex flex-col md:flex-row items-center gap-4">
+                                <div class="w-full md:w-1/4">
+                                    <img src="assets/header-img/velocity.png" alt="Delivering Digital Velocity"
+                                        class="rounded-lg">
+                                </div>
+                                <div class="w-full md:w-3/4 grid grid-cols-1 sm:grid-cols-2 gap-2">
+                                    <div class="flex items-center space-x-1">
+                                        <span class="text-gray-700 text-lg">💡</span>
+                                        <a href="/product-engineering-services"
+                                            class="text-gray-800 text-sm hover:text-yellow-500">
+                                            Product Engineering
+                                        </a>
+                                    </div>
+                                    <div class="flex items-center space-x-1">
+                                        <span class="text-gray-700 text-lg">☁️</span>
+                                        <a href="/saas-app-development"
+                                            class="text-gray-800 text-sm hover:text-yellow-500">
+                                            SAAS App Development
+                                        </a>
+                                    </div>
+                                    <div class="flex items-center space-x-1">
+                                        <span class="text-gray-700 text-lg">👥</span>
+                                        <a routerLink="/hire-offshore-full-stack-developers"
+                                            class="text-gray-800 text-sm hover:text-yellow-500">
+                                            Remote Full Stack Team
+                                        </a>
+                                    </div>
+                                    <div class="flex items-center space-x-1">
+                                        <span class="text-gray-700 text-lg">∞</span>
+                                        <a routerLink="/cloud-and-devops-solutions"
+                                            class="text-gray-800 text-sm hover:text-yellow-500">
+                                            Cloud & DevOps Solutions
+                                        </a>
+                                    </div>
+                                    <div class="flex items-center space-x-1">
+                                        <span class="text-gray-700 text-lg">⚙️</span>
+                                        <a routerLink="/generative-ai-development-company"
+                                            class="text-gray-800 text-sm hover:text-yellow-500">
+                                            Generative AI Development
+                                        </a>
+                                    </div>
+                                    <div class="flex items-center space-x-1">
+                                        <span class="text-gray-700 text-lg">🛡️</span>
+                                        <a routerLink="/quality-assurance-services"
+                                            class="text-gray-800 text-sm hover:text-yellow-500">
+                                            Quality Assurance Services
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="border-t border-gray-200 my-4"></div>
+                            <div class="flex items-center justify-between">
+                                <h3 class="text-base font-semibold text-gray-900">Our Process</h3>
+                                <div class="flex space-x-3">
+                                    <a href="#" class="text-orange-500 font-semibold text-sm hover:text-yellow-500">
+                                        #agility(at)Heart
+                                    </a>
+                                    <a href="#" class="text-green-600 font-semibold text-sm hover:text-yellow-500">
+                                        #clean-code
+                                    </a>
+                                    <a href="#" class="text-purple-600 font-semibold text-sm hover:text-yellow-500 ">
+                                        #ux-matters
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="relative" (mouseenter)="openLearn()" (mouseleave)="closeDropdown()">
+                    <button class="flex items-center py-2 px-4 rounded transition-colors duration-300" [ngClass]="{
+                          'text-white hover:bg-white hover:text-black': !scrolled,
+                          'text-gray-900 hover:bg-black hover:text-white': scrolled
+                        }">
+                        Learn
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </button>
+                    <div *ngIf="isLearnOpen"
+                        class="absolute top-full left-1/2 transform -translate-x-1/2 z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white ring-1 shadow-lg ring-gray-900/5">
+
+                        <div class="bg-white shadow-lg rounded-lg p-6">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+                                <!-- Left Section -->
+                                <div class="space-y-4">
+                                    <a href="/case-study" class="flex items-center space-x-2 group">
+                                        <img src="assets/header-img/case-study.svg" alt="NextJS"
+                                            class="h-5 filter grayscale group-hover:filter-none transition">
+                                        <p
+                                            class="text-gray-800 text-sm font-semibold group-hover:text-yellow-500 transition">
+                                            Case Studies
+                                        </p>
+                                    </a>
+                                    <a href="/blog" class="flex items-center space-x-2 group">
+                                        <img src="assets/header-img/blog.svg" alt="NextJS"
+                                            class="h-5 filter grayscale group-hover:filter-none transition">
+                                        <p
+                                            class="text-gray-800 text-sm font-semibold group-hover:text-yellow-500 transition">
+                                            Blogs</p>
+                                    </a>
+                                    <a href="/technologies-we-provide" class="flex items-center space-x-2 group">
+                                        <img src="assets/header-img/technology.svg" alt="NextJS"
+                                            class="h-5 filter grayscale group-hover:filter-none transition">
+                                        <p
+                                            class="text-gray-800 text-sm font-semibold group-hover:text-yellow-500 transition">
+                                            Technologies</p>
+                                    </a>
+                                </div>
+
+                                <!-- Right Section - Image -->
+                                <div class="flex justify-center">
+                                    <img src="assets/header-img/learn.jpeg" alt="Celebrating 13 Years"
+                                        class="rounded-lg shadow-lg w-full max-w-md">
+                                </div>
+                            </div>
+
+                            <!-- Join Us Section -->
+                            <a href="/career" class="mt-6 bg-yellow-500 text-white py-3 px-6 rounded-lg flex justify-between items-center 
+                                       hover:bg-yellow-600 hover:text-black transition">
+                                <p class="font-semibold">Join Us →</p>
+                            </a>
+
+                        </div>
+                    </div>
+                </li>
+
+                <li class="relative" (mouseenter)="openCompany()" (mouseleave)="closeDropdown()">
+                    <button class="flex items-center py-2 px-4 rounded transition-colors duration-300" [ngClass]="{
+                          'text-white hover:bg-white hover:text-black': !scrolled,
+                          'text-gray-900 hover:bg-black hover:text-white': scrolled
+                        }">
+                        Company
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </button>
+                    <div *ngIf="isCompanyOpen"
+                        class="absolute top-full left-1/2 transform -translate-x-1/2 z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white ring-1 shadow-lg ring-gray-900/5">
+                        <div class="bg-white shadow-lg rounded-lg p-6">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+                                <!-- Left Section -->
+                                <div class="space-y-4">
+                                    <a href="/our-company" class="flex items-center space-x-2 group">
+                                        <img src="assets/header-img/company.svg" alt="company"
+                                            class="h-5 filter grayscale group-hover:filter-none transition">
+                                        <p
+                                            class="text-gray-800 text-sm font-semibold group-hover:text-yellow-500 transition">
+                                            Our Company
+                                        </p>
+                                    </a>
+                                    <a href="/delivering-excelence" class="flex items-center space-x-2 group">
+                                        <img src="assets/header-img/slogan.svg" alt="slogan"
+                                            class="h-5 filter grayscale group-hover:filter-none transition">
+                                        <p
+                                            class="text-gray-800 text-sm font-semibold group-hover:text-yellow-500 transition">
+                                            Delivering Excelence</p>
+                                    </a>
+                                    <a href="/how-we-work" class="flex items-center space-x-2 group">
+                                        <img src="assets/header-img/h-w-work.svg" alt="work"
+                                            class="h-5 filter grayscale group-hover:filter-none transition">
+                                        <p
+                                            class="text-gray-800 text-sm font-semibold group-hover:text-yellow-500 transition">
+                                            How We Work</p>
+                                    </a>
+                                    <a href="/career" class="flex items-center space-x-2 group">
+                                        <img src="assets/header-img/career.svg" alt="career"
+                                            class="h-5 filter grayscale group-hover:filter-none transition">
+                                        <p
+                                            class="text-gray-800 text-sm font-semibold group-hover:text-yellow-500 transition">
+                                            Careers</p>
+                                    </a>
+                                    <a href="/life-at-anrufio" class="flex items-center space-x-2 group">
+                                        <img src="assets/header-img/life.svg" alt="life"
+                                            class="h-5 filter grayscale group-hover:filter-none transition">
+                                        <p
+                                            class="text-gray-800 text-sm font-semibold group-hover:text-yellow-500 transition">
+                                            Life at Anrufio</p>
+                                    </a>
+                                </div>
+
+                                <!-- Right Section - Image -->
+                                <div class="flex justify-center">
+                                    <img src="assets/header-img/celebration.png" alt="Celebrating 13 Years"
+                                        class="rounded-lg shadow-lg w-full max-w-md">
+                                </div>
+                            </div>
+
+                            <!-- Join Us Section -->
+                            <a href="/career" class="mt-6 bg-yellow-500 text-white py-3 px-6 rounded-lg flex justify-between items-center 
+                                       hover:bg-yellow-600 hover:text-black transition">
+                                <p class="font-semibold">Join Us →</p>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </li>
+
+                <li>
+                    <a href="/contact-us" class="block py-2 px-4 rounded border" [ngClass]="{
+                                   'bg-white text-black border-white': !scrolled,
+                                   'bg-black text-white border-black': scrolled
+                                 }">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

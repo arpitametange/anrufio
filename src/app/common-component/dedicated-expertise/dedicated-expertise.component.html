@@ -1,0 +1,41 @@
+<section class="bg-gray-900 text-white py-16">
+    <div class="container mx-auto px-6 lg:px-20 flex flex-col lg:flex-row items-center justify-between">
+        
+        <!-- Left Content -->
+        <div class="lg:w-1/2 space-y-6">
+            <p class="text-red-500 font-semibold">{{ content.subtitle }}</p>
+            <h2 class="text-3xl lg:text-4xl font-bold leading-tight">
+                {{ content.title }}
+            </h2>
+            
+            <ul class="space-y-2">
+                <li *ngFor="let benefit of content.benefits" class="flex items-center">
+                    <span class="text-red-500 mr-2" style="color: #FF0000 !important;">✔</span> {{ benefit }}
+                </li>
+            </ul>
+            
+            <div class="mt-6">
+                <button class="bg-white text-black font-semibold px-6 py-3 rounded-md flex items-center gap-2 transition duration-300 hover:bg-gray-300">
+                    {{ content.buttonText }}
+                    <span class="transition-transform duration-300 transform hover:translate-x-1">→</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Right Images -->
+        <div class="lg:w-1/2 flex justify-center mt-10 lg:mt-0">
+            <div class="grid grid-cols-1 gap-4">
+                <img [src]="content.image" alt="Team Working" class="rounded-lg shadow-lg">
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Stats Section -->
+    <div class="container mx-auto px-6 lg:px-20 mt-16 grid grid-cols-2 md:grid-cols-4 text-center gap-6">
+        <div *ngFor="let stat of content.stats">
+            <h3 class="text-3xl font-bold">{{ stat.value }}</h3>
+            <p class="text-gray-400">{{ stat.label }}</p>
+        </div>
+    </div>
+</section>

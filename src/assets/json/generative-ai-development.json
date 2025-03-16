@@ -1,0 +1,62 @@
+{
+  "tagline": "Innovative Generative AI Solutions",
+  "taglineColor": "#0EA5E9",
+  "title": "Our Solutions",
+  "description": "Angular Minds is an AI development company that provides future-ready Generative AI Development services making sure your business is always at the forefront of technology and development. We have a team of expert Generative AI developers who build scalable solutions that can grow with the growth of your business.",
+  "services": [
+    {
+      "iconClass": "fas fa-cogs text-orange-500 text-xl",
+      "iconColor": "#0EA5E9",
+      "title": "Natural Language Processing (NLP) Applications",
+      "description": "Unlike traditional AI which relies on pre-programmed responses, we use Gen AI to build NLP applications with the ability to generate novel and personalized content. From automating customer support to generating creative customized content, we've got you covered."
+    },
+    {
+      "iconClass": "fas fa-sync-alt text-orange-500 text-xl",
+      "iconColor": "#0EA5E9",
+      "title": "Large Language Models (LLM) Applications",
+      "description": "For businesses with more advanced requirements, we employ the dynamic functions of LLM to create intelligent applications that go beyond the basics. Our LLM-based applications are pre-trained on a vast amount of data making them one of the strongest smartest tools in your toolbox."
+    },
+    {
+      "iconClass": "fas fa-tools text-orange-500 text-xl",
+      "iconColor": "#0EA5E9",
+      "title": "Predictive Modeling and Forecasting",
+      "description": "We combine Generative AI with Predictive AI to create a dynamic duo that uses algorithms and machine learning techniques to predict or forecast any and every future trend or event. Be it financial insights, market analysis, or future trends, our Predictive Gen-AI can help you with it."
+    },
+    {
+      "iconClass": "fas fa-code text-orange-500 text-xl",
+      "iconColor": "#0EA5E9",
+      "title": "Computer Vision Applications",
+      "description": "We tap into the advantages of Generative AI to train deep-learning computer vision models automatically. Using GANs (Generative Adversarial Networks) to generate synthetic data for ML model training, we combine it with tools like Dall-E and offer everything from image generation to denoising."
+    },
+    {
+      "iconClass": "fas fa-vial text-orange-500 text-xl",
+      "iconColor": "#0EA5E9",
+      "title": "Personalization and Recommendation Systems",
+      "description": "Being at the forefront of personalizing experiences through Gen-AI, we train our machine learning models to analyze user personas based on gender, location, user behavior, past purchases, and current search queries to offer hyper-personalized recommendations."
+    },
+    {
+      "iconClass": "fas fa-vial text-orange-500 text-xl",
+      "iconColor": "#0EA5E9",
+      "title": "Content Generation & Personalization",
+      "description": "Our Generative AI solutions can automate and personalize content creation for you. From personalized marketing to product recommendations and data-driven insights, we build agile models that adapt to changing trends and the latest developments to maintain the relevancy of your brand."
+    },
+    {
+      "iconClass": "fas fa-vial text-orange-500 text-xl",
+      "iconColor": "#0EA5E9",
+      "title": "Generative Models for Prototyping",
+      "description": "We combine creativity with Gen-AI models and offer leading-edge services that allow you to explore vast and uncharted territories of product design. Our Gen-AI models generate design variations which accelerates iteration, trial and error, and decision-making within product development."
+    },
+    {
+      "iconClass": "fas fa-vial text-orange-500 text-xl",
+      "iconColor": "#0EA5E9",
+      "title": "AI-Driven Product Development",
+      "description": "Within the scope of product development, we offer a Gen-AI solution that does everything from automated ideation to prototyping to product design. Our Generative AI models can be used to build a user-centric design that can be used in both B2B and B2C software."
+    },
+    {
+      "iconClass": "fas fa-vial text-orange-500 text-xl",
+      "iconColor": "#0EA5E9",
+      "title": "Ethical AI Implementation",
+      "description": "We offer unbiased, non-discriminatory solutions that comply with Ethical AI frameworks and follow industry standards and best practices. By undergoing rigorous benchmarking, and self-debugging, we mitigate risk and constantly update our Gen-AI models to follow ethical frameworks."
+    }
+  ]
+}

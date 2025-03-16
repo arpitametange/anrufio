@@ -1,0 +1,29 @@
+{
+  "label": "FAQs",
+  "heading": "Common FAQs About Working With Angular Minds For Product Engineering Services",
+  "subtext": "We address all your queries here. If you have more questions, let us know. We would be happy to assist.",
+  "contactLinkText": "Contact us to know more →",
+  "contactLinkUrl": "#",
+  "faqs": [
+    {
+      "question": "What is the major difference between product engineering and software development?",
+      "answer": "Product engineering focuses on the entire lifecycle of a product, from ideation to maintenance, whereas software development primarily centers on coding and building applications."
+    },
+    {
+      "question": "What sets Angular Minds' approach to product engineering apart?",
+      "answer": "Our approach emphasizes innovative methodologies, seamless integration, and continuous improvement, ensuring we meet the unique needs of every client."
+    },
+    {
+      "question": "What are the different stages of product engineering services?",
+      "answer": "The process typically involves ideation, prototyping, development, testing, deployment, and ongoing maintenance."
+    },
+    {
+      "question": "How do your product engineering services foster innovation and growth?",
+      "answer": "We combine deep industry expertise with modern technology to drive innovation and accelerate growth."
+    },
+    {
+      "question": "Can Angular Minds help me get a seasoned product engineer for my ongoing projects?",
+      "answer": "Yes, we offer dedicated product engineers who have extensive experience in delivering top-notch solutions."
+    }
+  ]
+}

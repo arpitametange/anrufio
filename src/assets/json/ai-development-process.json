@@ -1,0 +1,51 @@
+{
+  "intro": {
+    "tagline": "Our AI Development Process",
+    "taglineColor": "#0EA5E9",
+    "title": "How We Develop Your Generative AI Solution",
+    "description": "Angular Minds is a Generative AI development company that is committed to providing leading-edge Generative AI solutions and services to businesses. Our development process is designed to fully utilize the power of Generative AI and its advanced algorithms and neural networks. Our processes are designed such that we are consistently able to provide solutions that are customized for every business."
+  },
+  "benefits": [
+    {
+      "iconPath": "assets/icons/one.svg",
+      "title": "Ideation and Conceptualization",
+      "description": "Our very first step in our development process is understanding exactly what your business needs. Our development team then collaborates closely with you to brainstorm ideas and create innovative AI solutions aligned with your requirements."
+    },
+    {
+      "iconPath": "assets/icons/two.svg",
+      "title": "Customization and Model Selection",
+      "description": "We then customize our services to better align with your business requirements. We strategically select the most suitable algorithms, frameworks, and tools to build a solution that fits your business in the best possible way."
+    },
+    {
+      "iconPath": "assets/icons/three.svg",
+      "title": "Data Collection and Preprocessing",
+      "description": "Our Generative AI model is then updated by collecting and preprocessing required data. We have a team of data experts who follow industry best practices and constantly scan the data to make sure of its quality, accuracy, and integrity."
+    },
+    {
+      "iconPath": "assets/icons/four.svg",
+      "title": "Model Training and Optimization",
+      "description": "In the next step, our AI developers train and optimize your Generative AI model intensively and extensively by utilizing the most sophisticated techniques to sharpen the performance and achieve optimized results by continuously fine-tuning the AI model."
+    },
+    {
+      "iconPath": "assets/icons/five.svg",
+      "title": "Integration and Deployment",
+      "description": "After successful training of your Gen-AI model, we effortlessly integrate it into your existing systems. Our deployment process is seamless and we guarantee minimal disruption to your operations and a smooth transition to your new AI solution."
+    },
+    {
+      "iconPath": "assets/icons/six.svg",
+      "title": "Continuous Monitoring and Support",
+      "description": "Post successful deployment, we provide ongoing support by continuously monitoring your new and personalized Gen-AI model. We ensure a smooth and sustained performance and are available to address concerns and make improvements, wherever needed."
+    },
+    {
+      "iconPath": "assets/icons/seven.svg",
+      "title": "Ethical AI Implementation",
+      "description": "Throughout the development of your Generative AI solution, we strictly make sure that your AI model is built adhering to the highest ethical standards. We ensure a transparent and fair solution that follows all data privacy rules and regulations."
+    },
+    {
+      "iconPath": "assets/icons/eight.svg",
+      "title": "Innovation and Iteration",
+      "description": "We constantly upgrade our AI solutions with the evolving digital landscape by implementing upgrades and new advancements. Our process is centered around innovation and upgradation that keeps your business at the top of AI technology."
+    }
+  ]
+}
+

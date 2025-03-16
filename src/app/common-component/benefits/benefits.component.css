@@ -1,0 +1,16 @@
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+}
+:host ::ng-deep [appInlineSvg] svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}

@@ -1,0 +1,40 @@
+<p class="text-red-500 font-semibold mb-2">Technology Stack</p>
+
+<h2 class="text-3xl md:text-4xl font-bold text-gray-900">
+    Technologies and Platforms We Work With
+</h2>
+
+<p class="mt-4 text-gray-600">
+    Our team is proficient in a variety of programming languages, including but not limited to, Angular, ReactJS,
+    Python, Java, and JavaScript. We also have expertise in mobile development, we are well-versed in iOS, Android,
+    and cross-platform technologies like Flutter and React Native. For cloud services, we work with AWS, Google
+    Cloud, and Microsoft Azure, among others.
+</p>
+<p class="mt-4 text-gray-600">
+    We also specialize in emerging technologies like AI, Machine Learning, Blockchain, and IoT, enabling us to
+    provide innovative solutions that meet the unique needs of our clients.
+</p>
+
+<p class="mt-4 text-gray-600">
+    No matter your technological needs, we have the skills and experience to deliver high-quality, tailor-made
+    solutions.
+</p>
+
+<div class="mt-8 flex space-x-6 border-b overflow-x-auto whitespace-nowrap">
+    <button *ngFor="let category of categories" class="pb-2 text-lg font-semibold" [ngClass]="{
+            'border-b-2 border-red-500 text-red-500': selectedCategory === category,
+            'text-gray-600 hover:text-red-500': selectedCategory !== category
+          }" (click)="selectCategory(category)">
+        {{ category }}
+    </button>
+</div>
+
+<div class="mt-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+    <div *ngFor="let tech of data[selectedCategory]" class="flex flex-col items-center bg-gray-100 p-4 rounded-lg">
+        <a [href]="tech.link" target="_blank" class="flex flex-col items-center">
+            <img [src]="tech.image" [alt]="tech.name"
+                class="w-12 h-12 object-contain transform transition duration-300 hover:scale-110 mb-4">
+            <span class="text-lg text-gray-900">{{ tech.name }}</span>
+        </a>
+    </div>
+</div>

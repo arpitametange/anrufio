@@ -1,0 +1,38 @@
+{
+  "tagline": "Product Engineering Expertise",
+  "taglineColor": "#F97316",
+  "title": "Our Client-Centric Product Engineering Services",
+  "description": "Angular Minds as a product engineering services company believes in the utmost client-centricity. We ensure seamless engineering and make your idea a revenue model. Our expert product engineers make sure to exceed customer expectations and deliver supreme user experience.",
+  "services": [
+    {
+      "iconClass": "fas fa-cogs text-orange-500 text-xl",
+      "iconColor": "#F97316",
+      "title": "Product Engineering Consulting",
+      "description": "In our product engineering consulting services, we identify the best-suited stack for your services, ensuring you get the right foundation for the technologies required. We also present client-specific innovation in IoT and Machine Learning areas."
+    },
+    {
+      "iconClass": "fas fa-sync-alt text-orange-500 text-xl",
+      "iconColor": "#F97316",
+      "title": "Product Modernization",
+      "description": "With the aid of new-age technologies, we review and re-engineer existing products to ensure they remain competitive. Our approach includes microservices, UX revamp, architecture renovation, and a robust modernization roadmap for a new product."
+    },
+    {
+      "iconClass": "fas fa-tools text-orange-500 text-xl",
+      "iconColor": "#F97316",
+      "title": "Product Support & Maintenance",
+      "description": "Once your product is live, we provide a wide spectrum of portfolios and services. This includes ongoing support, product sustenance, and upgrades to ensure peak performance over its lifecycle."
+    },
+    {
+      "iconClass": "fas fa-code text-orange-500 text-xl",
+      "iconColor": "#F97316",
+      "title": "Product Development",
+      "description": "Once the consultation is complete and the tech stack is finalized, we cover the entire product development phase, managing everything from design to deployment. Our team handles documentation, code reviews, and best practices to deliver a high-quality product."
+    },
+    {
+      "iconClass": "fas fa-vial text-orange-500 text-xl",
+      "iconColor": "#F97316",
+      "title": "Product Testing",
+      "description": "Rigorous end-to-end testing to secure the quality and reliability of the new product. Our testing approach includes functional testing, compatibility testing, security testing, and performance testing (GUI testing) to ensure a stable, high-performing solution."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<p class="text-orange-500 font-semibold mb-2" [ngStyle]="{'color': data?.taglineColor}">
+    {{ data?.tagline }}
+</p>
+
+<h2 class="text-3xl md:text-4xl font-bold text-gray-900">{{ data?.title }}</h2>
+<p class="mt-4 text-gray-600 max-w-3xl">
+    {{ data?.description }}
+</p>
+
+<div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div *ngFor="let service of data?.services" class="flex items-start">
+        <div class="flex-shrink-0">
+            <i [class]="service.iconClass" [ngStyle]="{'color': service.iconColor}"></i>
+        </div>
+        <div class="ml-3">
+            <h3 class="text-lg font-semibold text-gray-900">{{ service.title }}</h3>
+            <p class="mt-2 text-gray-600">
+                {{ service.description }}
+            </p>
+        </div>
+    </div>
+</div>

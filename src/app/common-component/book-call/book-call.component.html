@@ -1,0 +1,19 @@
+<section class="relative bg-cover bg-center text-white py-12"
+    [ngStyle]="{'background-image': 'url(' + data.backgroundImage + ')'}">
+    <div class="absolute inset-0 bg-[#101820] opacity-70"></div>
+    <div class="relative max-w-6xl mx-auto px-4 text-center md:text-left">
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold">
+            {{ data.title }}
+        </h2>
+        <p class="mt-4 text-gray-300 max-w-2xl mx-auto">
+            {{ data.description }}
+        </p>
+        <div class="mt-6">
+            <a [routerLink]="data.btnLink" (click)="onBookCallClick()"
+                class="inline-block text-white font-semibold px-6 py-3 rounded transition"
+                [ngClass]="[data.btnColor, data.btnHoverColor]">
+                {{ data.btnText }}
+            </a>
+        </div>
+    </div>
+</section>

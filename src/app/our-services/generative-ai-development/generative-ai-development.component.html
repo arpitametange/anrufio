@@ -1,0 +1,149 @@
+<app-header></app-header>
+<section class="relative bg-white py-12">
+    <div
+        class="absolute inset-0 bg-[url('assets/service/header-grid.jpg')] bg-no-repeat bg-cover opacity-10 pointer-events-none">
+    </div>
+
+    <div class="relative max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div class="space-y-4">
+            <span class="inline-block bg-sky-100 text-sky-700 font-semibold px-3 py-1 rounded-full text-sm">
+                AI Application Development Services
+            </span>
+
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+                Creating Tomorrow's Reality: Generative AI Solutions
+            </h2>
+
+            <p class="text-gray-700">
+                Partner with Angular Minds to drive your business forward with the latest innovation and Gen-AI
+                technology. We leverage
+                the potential of Generative AI to build dynamic and leading-edge solutions for your business setting up
+                for success.
+            </p>
+
+            <div class="mt-6 flex flex-wrap items-center space-x-4">
+                <a href="#" class="bg-sky-500 text-white font-semibold px-4 py-2 rounded hover:bg-sky-600 transition">
+                    Get Started →
+                </a>
+                <a href="#"
+                    class="text-sky-500 font-semibold px-4 py-2 border border-sky-500 rounded hover:bg-sky-500 hover:text-white transition">
+                    Book a call with our CEO →
+                </a>
+            </div>
+
+        </div>
+
+
+        <div class="flex justify-center">
+            <img src="assets/service/artificial-intelligence.png" alt="Layered Orange Shapes" class="w-200 h-auto" />
+        </div>
+    </div>
+</section>
+
+<section class="max-w-6xl mx-auto px-4 py-12">
+    <app-expertise [data]="content"></app-expertise>
+</section>
+
+<section class="bg-[#f7faf2]">
+    <app-benefits [data]="benefitsData"></app-benefits>
+</section>
+
+<section class="max-w-6xl mx-auto px-4 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+        <!-- Left Column: Intro -->
+        <div>
+            <p class="text-blue-500 font-semibold mb-2">Agile Building Blocks of Your AI</p>
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900">
+                Pillars of Your Generative AI Solution
+            </h2>
+            <p class="mt-4 text-gray-600 max-w-xl">
+                Building big solutions requires strong and sturdy foundations. Our Generative AI development
+                services are built using these core pillars of Gen AI. We make sure to build each one of
+                these pillars with expertise and upgrade to the latest technologies as needed.
+            </p>
+        </div>
+
+        <!-- Right Column: Pillars List -->
+        <div class="space-y-6">
+            <!-- Pillar 1 -->
+            <div class="bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
+                <h3 class="text-lg font-semibold text-gray-900">Business-Aligned AI Strategy</h3>
+                <p class="mt-2 text-gray-600">
+                    One of the core pillars of a successful Generative AI strategy is ensuring it’s
+                    relevant to your business objectives. By aligning AI initiatives with your specific
+                    goals, you can maximize ROI and drive real value.
+                </p>
+            </div>
+
+            <!-- Pillar 2 -->
+            <div class="bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
+                <h3 class="text-lg font-semibold text-gray-900">Roadmap Development</h3>
+                <p class="mt-2 text-gray-600">
+                    With planning being the most important part of any AI strategy, we provide
+                    an actionable roadmap with realistic milestones and achievable metrics to guide
+                    your AI journey effectively.
+                </p>
+            </div>
+
+            <!-- Pillar 3 -->
+            <div class="bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
+                <h3 class="text-lg font-semibold text-gray-900">Technical Infrastructure</h3>
+                <p class="mt-2 text-gray-600">
+                    The tech stack of your Generative AI is the backbone of the entire model.
+                    It should always have tools and relevant integrations to keep the latest versions
+                    secure and efficient.
+                </p>
+            </div>
+
+            <!-- Pillar 4 -->
+            <div class="bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
+                <h3 class="text-lg font-semibold text-gray-900">Ethical Data Governance Framework</h3>
+                <p class="mt-2 text-gray-600">
+                    Generative AI models must adhere to ethical frameworks and should proactively
+                    comply with data privacy regulations. This ensures your data stays highly
+                    safeguarded and properly managed.
+                </p>
+            </div>
+
+            <!-- Pillar 5 -->
+            <div class="bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
+                <h3 class="text-lg font-semibold text-gray-900">Talent Strategy</h3>
+                <p class="mt-2 text-gray-600">
+                    The success of your Generative AI model depends on the minds who build it.
+                    It should be seasoned with the right expertise to ensure a scalable AI model
+                    capable of adapting to new technologies and business needs.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="bg-[#03000f]">
+    <app-our-ai-development-process [data]="aiProcess"></app-our-ai-development-process>
+</section>
+
+<section>
+    <app-book-call [data]="bookCall"></app-book-call>
+</section>
+
+<section class="max-w-6xl mx-auto px-4 py-12">
+    <app-industries></app-industries>
+</section>
+
+<section class="bg-[#f7faf2]">
+    <app-everything-you-need></app-everything-you-need>
+</section>
+<section class="max-w-6xl mx-auto px-4 py-12">
+    <app-technologies></app-technologies>
+</section>
+<section class="bg-[#f7faf2]">
+    <app-testimonial></app-testimonial>
+</section>
+<section>
+    <app-our-collaboration></app-our-collaboration>
+</section>
+<section class="bg-[#f7faf2]">
+    <app-faq [faqSection]="faqData" (faqClicked)="handleFaqClick($event)"></app-faq>
+</section>
+<app-footer></app-footer>

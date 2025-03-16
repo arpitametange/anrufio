@@ -1,0 +1,369 @@
+{
+  "Front-End": [
+    {
+      "name": "HTML5",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+      "link": "https://www.w3.org/TR/html5/"
+    },
+    {
+      "name": "CSS3",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+      "link": "https://www.w3.org/Style/CSS/Overview.en.html"
+    },
+    {
+      "name": "Tailwind CSS",
+      "image": "https://tailwindcss.com/_next/static/media/tailwindcss-mark.d52e9897.svg",
+      "link": "https://tailwindcss.com/"
+    },
+    {
+      "name": "Bootstrap",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
+      "link": "https://getbootstrap.com/"
+    },
+    {
+      "name": "JavaScript",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    {
+      "name": "TypeScript",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Typescript.svg",
+      "link": "https://www.typescriptlang.org/"
+    },
+    {
+      "name": "Angular",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg",
+      "link": "https://angular.io/"
+    },
+    {
+      "name": "ReactJS",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+      "link": "https://reactjs.org/"
+    },
+    {
+      "name": "Material-UI",
+      "image": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg",
+      "link": "https://mui.com/"
+    },
+    {
+      "name": "Next.js",
+      "image": "https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-y563b8iq.png",
+      "link": "https://nextjs.org/"
+    },
+    {
+      "name": "Vue.js",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg",
+      "link": "https://vuejs.org/"
+    },
+    {
+      "name": "Svelte",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg",
+      "link": "https://svelte.dev/"
+    },
+    {
+      "name": "Remix",
+      "image": "https://images.seeklogo.com/logo-png/42/1/remix-logo-png_seeklogo-426708.png",
+      "link": "https://remix.run/"
+    },
+    {
+      "name": "Gatsby.js",
+      "image": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/gatsby-js-icon.png",
+      "link": "https://www.gatsbyjs.com/"
+    }
+  ],
+  "Back-End": [
+    {
+      "name": "Node.js",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
+      "link": "https://nodejs.org/"
+    },
+    {
+      "name": "Python",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+      "link": "https://www.python.org/"
+    },
+    {
+      "name": "Java",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
+      "link": "https://www.java.com/"
+    },
+    {
+      "name": "ASP.NET Core",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Microsoft_.NET_logo.png",
+      "link": "https://dotnet.microsoft.com/apps/aspnet"
+    },
+    {
+      "name": "Go",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg",
+      "link": "https://golang.org/"
+    },
+    {
+      "name": "Express.js",
+      "image": "https://icon.icepanel.io/Technology/png-shadow-512/Express.png",
+      "link": "https://expressjs.com/"
+    },
+    {
+      "name": "GraphQL",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg",
+      "link": "https://graphql.org/"
+    },
+    {
+      "name": "Spring Boot",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/79/Spring_Boot.svg",
+      "link": "https://spring.io/projects/spring-boot"
+    },
+    {
+      "name": "Django",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Django_logo.svg",
+      "link": "https://www.djangoproject.com/"
+    },
+    {
+      "name": "Flask",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg",
+      "link": "https://flask.palletsprojects.com/"
+    },
+    {
+      "name": "Hibernate",
+      "image": "https://icon.icepanel.io/Technology/svg/Hibernate.svg",
+      "link": "https://hibernate.org/"
+    }
+  ],
+  "Mobile & PWA": [
+    {
+      "name": "Android",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Android_robot.svg",
+      "link": "https://www.android.com/"
+    },
+    {
+      "name": "iOS",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
+      "link": "https://www.apple.com/ios/"
+    },
+    {
+      "name": "Ionic",
+      "image": "https://ionic.io/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fionicframeworkcom%2F66cfdbef-e59d-463a-8e24-12cb233e9d97_ionic%2Blogo%2Bblue.png&w=256&q=75",
+      "link": "https://ionicframework.com/"
+    },
+    {
+      "name": "React Native",
+      "image": "https://reactnative.dev/img/header_logo.svg",
+      "link": "https://reactnative.dev/"
+    },
+    {
+      "name": "Flutter",
+      "image": "https://storage.googleapis.com/cms-storage-bucket/4fd5520fe28ebf839174.svg",
+      "link": "https://flutter.dev/"
+    },
+    {
+      "name": "SwiftUI",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Swift_logo.svg",
+      "link": "https://developer.apple.com/xcode/swiftui/"
+    },
+    {
+      "name": "PWA",
+      "image": "https://user-images.githubusercontent.com/3104648/28351989-7f68389e-6c4b-11e7-9bf2-e9fcd4977e7a.png",
+      "link": "https://web.dev/progressive-web-apps/"
+    },
+    {
+      "name": "Electron",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Electron_Software_Framework_Logo.svg",
+      "link": "https://www.electronjs.org/"
+    }
+  ],
+  "Databases": [
+    {
+      "name": "MySQL",
+      "image": "https://www.svgrepo.com/show/354099/mysql.svg",
+      "link": "https://www.mysql.com/"
+    },
+    {
+      "name": "PostgreSQL",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
+      "link": "https://www.postgresql.org/"
+    },
+    {
+      "name": "SQLite",
+      "image": "https://www.svgrepo.com/show/443444/brand-sqllite.svg",
+      "link": "https://www.sqlite.org/"
+    },
+    {
+      "name": "MongoDB",
+      "image": "https://www.svgrepo.com/show/331488/mongodb.svg",
+      "link": "https://www.mongodb.com/"
+    },
+    {
+      "name": "DynamoDB",
+      "image": "https://www.svgrepo.com/show/353450/aws-dynamodb.svg",
+      "link": "https://aws.amazon.com/dynamodb/"
+    },
+    {
+      "name": "Firebase",
+      "image": "https://www.svgrepo.com/show/373595/firebase.svg",
+      "link": "https://firebase.google.com/"
+    },
+    {
+      "name": "Cassandra",
+      "image": "https://www.svgrepo.com/show/353540/cassandra.svg",
+      "link": "https://cassandra.apache.org/"
+    },
+    {
+      "name": "Spark",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg",
+      "link": "https://spark.apache.org/"
+    },
+    {
+      "name": "Redis",
+      "image": "https://www.svgrepo.com/show/354272/redis.svg",
+      "link": "https://redis.io/"
+    },
+    {
+      "name": "Elastic Search",
+      "image": "https://www.svgrepo.com/show/303574/elasticsearch-logo.svg",
+      "link": "https://www.elastic.co/elasticsearch/"
+    },
+    {
+      "name": "Couchbase",
+      "image": "https://images.seeklogo.com/logo-png/27/1/couchbase-logo-png_seeklogo-273004.png",
+      "link": "https://www.couchbase.com/"
+    }
+  ],
+  "Testing & Quality Assurance": [
+    {
+      "name": "Selenium",
+      "image": "https://www.svgrepo.com/show/354321/selenium.svg",
+      "link": "https://www.selenium.dev/"
+    },
+    {
+      "name": "Appium",
+      "image": "https://www.svgrepo.com/show/353413/appium.svg",
+      "link": "https://appium.io/"
+    },
+    {
+      "name": "BurpSuite",
+      "image": "https://www.svgrepo.com/show/454430/burpsuite-security-software.svg",
+      "link": "https://portswigger.net/burp"
+    },
+    {
+      "name": "JMeter",
+      "image": "https://www.svgrepo.com/show/329945/apachejmeter.svg",
+      "link": "https://jmeter.apache.org/"
+    },
+    {
+      "name": "Postman",
+      "image": "https://www.svgrepo.com/show/354202/postman-icon.svg",
+      "link": "https://www.postman.com/"
+    },
+    {
+      "name": "SoapUI",
+      "image": "https://icon-icons.com/icons2/1381/PNG/512/soapui_93772.png",
+      "link": "https://www.soapui.org/"
+    },
+    {
+      "name": "JUnit",
+      "image": "https://icon.icepanel.io/Technology/svg/JUnit.svg",
+      "link": "https://junit.org/"
+    },
+    {
+      "name": "TestNG",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1f/TestNG_Logo.svg",
+      "link": "https://testng.org/doc/"
+    },
+    {
+      "name": "Cypress",
+      "image": "https://www.svgrepo.com/show/353630/cypress.svg",
+      "link": "https://www.cypress.io/"
+    },
+    {
+      "name": "Mocha",
+      "image": "https://www.svgrepo.com/show/354079/mocha.svg",
+      "link": "https://mochajs.org/"
+    },
+    {
+      "name": "Chai",
+      "image": "https://www.svgrepo.com/show/353546/chai.svg",
+      "link": "https://www.chaijs.com/"
+    },
+    {
+      "name": "Jest",
+      "image": "https://www.svgrepo.com/show/373700/jest.svg",
+      "link": "https://jestjs.io/"
+    },
+    {
+      "name": "Protractor",
+      "image": "https://www.svgrepo.com/show/374009/protractor.svg",
+      "link": "http://www.protractortest.org/"
+    },
+    {
+      "name": "JIRA",
+      "image": "https://www.svgrepo.com/show/353935/jira.svg",
+      "link": "https://www.atlassian.com/software/jira"
+    }
+  ],
+  "Cloud & DevOps": [
+    {
+      "name": "AWS",
+      "image": "https://www.svgrepo.com/show/448266/aws.svg",
+      "link": "https://aws.amazon.com/"
+    },
+    {
+      "name": "Azure",
+      "image": "https://www.svgrepo.com/show/353467/azure-icon.svg",
+      "link": "https://azure.microsoft.com/"
+    },
+    {
+      "name": "Google Cloud",
+      "image": "https://www.svgrepo.com/show/353805/google-cloud.svg",
+      "link": "https://cloud.google.com/"
+    },
+    {
+      "name": "DigitalOcean",
+      "image": "https://www.svgrepo.com/show/349337/digitalocean.svg",
+      "link": "https://www.digitalocean.com/"
+    },
+    {
+      "name": "Cloudflare",
+      "image": "https://www.svgrepo.com/show/353564/cloudflare.svg",
+      "link": "https://www.cloudflare.com/"
+    },
+    {
+      "name": "Docker",
+      "image": "https://www.svgrepo.com/show/448221/docker.svg",
+      "link": "https://www.docker.com/"
+    },
+    {
+      "name": "Kubernetes",
+      "image": "https://www.svgrepo.com/show/353983/kubernetes.svg",
+      "link": "https://kubernetes.io/"
+    },
+    {
+      "name": "Ansible",
+      "image": "https://www.svgrepo.com/show/305708/ansible.svg",
+      "link": "https://www.ansible.com/"
+    },
+    {
+      "name": "Terraform",
+      "image": "https://www.svgrepo.com/show/448253/terraform.svg",
+      "link": "https://www.terraform.io/"
+    },
+    {
+      "name": "Jenkins",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg",
+      "link": "https://www.jenkins.io/"
+    },
+    {
+      "name": "GitOps",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg",
+      "link": "https://www.gitops.tech/"
+    },
+    {
+      "name": "CircleCI",
+      "image": "https://www.svgrepo.com/show/374249/circleci-opened.svg",
+      "link": "https://circleci.com/"
+    },
+    {
+      "name": "GitLab CI/CD",
+      "image": "https://www.svgrepo.com/show/353785/gitlab.svg",
+      "link": "https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/"
+    }
+  ]
+}

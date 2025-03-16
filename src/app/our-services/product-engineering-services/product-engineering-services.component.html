@@ -1,0 +1,168 @@
+<app-header></app-header>
+<section class="relative bg-white py-12">
+    <div
+        class="absolute inset-0 bg-[url('assets/service/header-grid.jpg')] bg-no-repeat bg-cover opacity-10 pointer-events-none">
+    </div>
+
+    <div class="relative max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div class="space-y-4">
+            <span class="inline-block bg-orange-100 text-orange-700 font-semibold px-3 py-1 rounded-full text-sm">
+                Powerful Product Engineering Services
+            </span>
+
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+                Next Generation Product Engineering Services
+            </h2>
+
+            <p class="text-gray-700">
+                Angular Minds specializes in end-to-end product engineering solutions for global enterprises.
+                Our expert product engineers make sure to exceed customer expectations and deliver supreme user
+                experience.
+            </p>
+
+            <div class="mt-6 flex flex-wrap items-center space-x-4">
+                <a href="#"
+                    class="bg-orange-500 text-white font-semibold px-4 py-2 rounded hover:bg-orange-600 transition">
+                    Get Started →
+                </a>
+                <a href="#"
+                    class="text-orange-500 font-semibold px-4 py-2 border border-orange-500 rounded hover:bg-orange-500 hover:text-white transition">
+                    Book a call with our CEO →
+                </a>
+            </div>
+        </div>
+
+
+        <div class="flex justify-center">
+            <img src="assets/service/layered-sphere.png" alt="Layered Orange Shapes" class="w-64 h-auto" />
+        </div>
+    </div>
+</section>
+
+<section class="max-w-6xl mx-auto px-4 py-12">
+    <app-expertise [data]="content"></app-expertise>
+</section>
+
+<section class="max-w-6xl mx-auto px-4 py-12">
+    <!-- Section Label -->
+    <p class="text-orange-500 font-semibold mb-2">Everything you need</p>
+
+    <!-- Main Heading -->
+    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">
+        Our Process For Product Engineering
+    </h2>
+
+    <!-- Subtext -->
+    <p class="mt-4 text-gray-600 max-w-2xl">
+        Angular Minds has a specific and panoramic process for creating a product.
+        We believe in delivering what we promised and in the decided time period.
+    </p>
+
+    <!-- Process Steps: 2-Column Grid -->
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Left Column Steps -->
+        <div class="space-y-6">
+            <!-- Step 1 -->
+            <div>
+                <h3 class="text-lg font-semibold text-gray-800 flex items-center">
+                    <span class="text-orange-500 mr-2">•</span> Idea Exploration and Rapid Prototyping
+                </h3>
+                <p class="mt-2 text-gray-600">
+                    We gather requirements to help you refine your initial idea.
+                    We then create rapid prototypes so you can provide feedback
+                    before fully investing in the requirements.
+                </p>
+            </div>
+
+            <!-- Step 2 -->
+            <div>
+                <h3 class="text-lg font-semibold text-gray-800 flex items-center">
+                    <span class="text-orange-500 mr-2">•</span> Building a Minimum Viable Product (MVP)
+                </h3>
+                <p class="mt-2 text-gray-600">
+                    We work on an agile methodology to develop a functional version of your
+                    product with the pivotal features. This allows you to gather market
+                    feedback early and iterate effectively.
+                </p>
+            </div>
+
+            <!-- Step 3 -->
+            <div>
+                <h3 class="text-lg font-semibold text-gray-800 flex items-center">
+                    <span class="text-orange-500 mr-2">•</span> Product Maturity and Scalability
+                </h3>
+                <p class="mt-2 text-gray-600">
+                    As the product matures, we integrate continuous updates and ensure
+                    your solution scales to meet growing user demands. This includes
+                    performance tuning, security, and compliance checks.
+                </p>
+            </div>
+        </div>
+
+        <!-- Right Column Steps -->
+        <div class="space-y-6">
+            <!-- Step 4 -->
+            <div>
+                <h3 class="text-lg font-semibold text-gray-800 flex items-center">
+                    <span class="text-orange-500 mr-2">•</span> Strategic Product Planning
+                </h3>
+                <p class="mt-2 text-gray-600">
+                    Together, we outline your product roadmap and strategy so it perfectly
+                    fits your business objectives and user needs. Our experts guide you
+                    with a clear vision for market positioning.
+                </p>
+            </div>
+
+            <!-- Step 5 -->
+            <div>
+                <h3 class="text-lg font-semibold text-gray-800 flex items-center">
+                    <span class="text-orange-500 mr-2">•</span> Iterative Product Development
+                </h3>
+                <p class="mt-2 text-gray-600">
+                    We break down your product development into iterative phases, each
+                    focusing on building and refining core features. This agile approach
+                    ensures your product is user-centric and adaptable.
+                </p>
+            </div>
+
+            <!-- Step 6 -->
+            <div>
+                <h3 class="text-lg font-semibold text-gray-800 flex items-center">
+                    <span class="text-orange-500 mr-2">•</span> Continuous Product Innovation and Improvement
+                </h3>
+                <p class="mt-2 text-gray-600">
+                    We encourage ongoing feedback for continuous enhancement. Our team
+                    stays updated with emerging technologies to ensure your product
+                    remains modern, scalable, and competitive.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-[#f7faf2]">
+    <app-benefits [data]="benefitsData"></app-benefits>
+</section>
+
+<section class="max-w-6xl mx-auto px-4 py-12">
+    <app-industries></app-industries>
+</section>
+<section class="bg-[#f7faf2]">
+    <app-everything-you-need></app-everything-you-need>
+</section>
+<section class="max-w-6xl mx-auto px-4 py-12">
+    <app-technologies></app-technologies>
+</section>
+<section class="bg-[#f7faf2]">
+    <app-testimonial></app-testimonial>
+</section>
+<section>
+    <app-our-collaboration></app-our-collaboration>
+</section>
+<section>
+    <app-book-call [data]="bookCall"></app-book-call>
+</section>
+<section>
+    <app-faq [faqSection]="faqData" (faqClicked)="handleFaqClick($event)"></app-faq>
+</section>
+<app-footer></app-footer>

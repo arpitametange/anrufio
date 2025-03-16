@@ -1,0 +1,9 @@
+{
+  "title": "Need A Developers who Will Make Your Project a Success?",
+  "description": "Angular Minds has a perfect blend of developers who can manage your project from start to finish. Choose us and drive the success of your business.",
+  "backgroundImage": "assets/service/project-sucess.jpg",
+  "btnColor": "bg-red-500",
+  "btnHoverColor": "hover:bg-red-600",
+  "btnText": "Book A Call",
+  "btnLink": "#"
+}
